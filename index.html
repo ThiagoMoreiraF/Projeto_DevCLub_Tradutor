@@ -1,19 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tradutor Devclub</title>
+    <link rel="stylesheet" href="./styles.css">
 </head>
-<body>
-    <textarea name="" id=""></textarea>
-    <select name="" id=""></select>
-        <option value="">Ingles</option>
-        <option value="">Alemao</option>
-        <option value="">Japones</option>
-        <option value="">Espanhol</option>
 
-    <button>Traduzir</button>
-    
+<body>
+    <div class="caixa-maior">
+        <textarea class="input-texto"></textarea>
+        <div class="controle">
+            <select class="idioma">
+                <option>Ingles</option>
+                <option>Alemao</option>
+                <option>Japones</option>
+                <option>Espanhol</option>
+            </select>
+
+
+            <button><img src="./img/traduzir.svg" alt=""></button>
+            <button><img src="./img/microfone.svg" alt=""></button>
+        </div>
+        <div class="resultado">
+            <h3 class="titulo-traducao">Tradução</h3>
+            <p class="traducao">A tradução vai aparecer aqui...</p>
+        </div>
+    </div>
+
+
+
 </body>
+
 </html>
